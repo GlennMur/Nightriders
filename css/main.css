@@ -64,21 +64,32 @@
 
 /*  General CSS*/
 body{
-    background: #fff;
+  background: #fff;
+
+     
+
+    
+
 }
 
 .wrapper{
-    width: 1100px;
-    margin: 0 auto;
+
+  width: 1100px;
+    margin: 0 auto; 
+
+
+
 }
 
 .wrapper2{
-    width: 1200px;
-    margin: 0 auto;
+
+   width: 1200px;
+    margin: 0 auto; 
 }
 
 h1, h2, h3, h4, h5 ,h6{
     color: #626262;
+
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
 }
@@ -128,6 +139,7 @@ h5, h6          { font-weight: bolder }
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
 }
 
 .billboard.dark{
@@ -661,3 +673,115 @@ footer nav ul li a{
 footer nav ul li a:hover{
     color: #616161;
 }
+
+
+/* Media Queries */
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) 
+{ body    {
+  background-color: darkgreen;
+  } )
+
+
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) 
+{ body {
+  background-color: green
+  } }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ body {
+  background-color: lightgreen
+  } }
+
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape)
+{ body {
+  background-color: yellow
+  } }
+
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+{ body {
+  background-color: orange;
+  } }
+
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 2)
+{ body {
+  background-color: darkblue;
+  } }
+
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) 
+and (-webkit-min-device-pixel-ratio: 2)
+  { body {
+  background-color: lightblue;
+  } }
+
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) 
+and (-webkit-min-device-pixel-ratio: 2)
+{ body {
+  background-color: blue;
+  } }
+
+
+
+
+
+
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) 
+{ body {
+  background-color: darkred
+  } }
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) 
+{ body {
+  background-color: red
+  } }
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) 
+{ body {
+  background-color: lightred
+  } }
