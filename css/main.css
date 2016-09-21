@@ -66,18 +66,12 @@
 body{
   background: #fff;
 
-     
-
-    
-
 }
 
 .wrapper{
 
   width: 1100px;
     margin: 0 auto; 
-
-
 
 }
 
@@ -675,6 +669,7 @@ footer nav ul li a:hover{
 }
 
 
+
 /* Media Queries */
 
 /* Desktops and laptops ----------- */
@@ -750,13 +745,19 @@ and (max-device-width : 1024px)
 and (orientation : portrait) 
 and (-webkit-min-device-pixel-ratio: 2)
 { body {
-  background-color: blue;
+/*  background-color: blue;*/
   } }
 
 
 
+/* iPhone 6 plus and similar devices HD display */ 
+ @media only screen and (-webkit-min-device-pixel-ratio: 3), 
+   only screen and (min-resolution: 3dppx), /* Default way */ 
+   only screen and (min-resolution: 350dpi) /* dppx fallback */ 
 
-
+{ body {
+  background-color: blue;
+  } }
 
  
 /* iPhone 5 (portrait &amp; landscape)----------- */
