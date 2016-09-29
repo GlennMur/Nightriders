@@ -70,17 +70,17 @@ body{
 
 .wrapper{
 
-     width: 1366px;
+     width: 1024px;
     margin: 0 auto;
-  
+
 
 }
 
 .wrapper2{
 
-   width: 1366px;
+   width: 1024px;
     margin: 0 auto; 
-
+ 
 }
 
 h1, h2, h3, h4, h5 ,h6{
@@ -135,7 +135,7 @@ h5, h6          { font-weight: bolder }
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-         background-color: blue;
+          background-color: red;
 
 }
 
@@ -249,6 +249,7 @@ header .logo{
 header nav{
     float: right;
     margin-top: 57px;
+    margin-right: 150px;
 }
 
 
@@ -673,3 +674,6 @@ footer nav ul li a:hover{
 
 
 
+
+  
+  
