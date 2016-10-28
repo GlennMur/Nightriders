@@ -140,9 +140,10 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/billboard2.jpg') no-repeat;
+    background: url('../img/approach3.jpg') no-repeat;
     
-    background-size: cover;
+    background-attachment: scroll;
+     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,7 +161,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption{
-    margin-top: 60px;
+    margin-top: 0px;
     text-align: center;
 }
 
@@ -472,7 +473,7 @@ header.dark nav ul li a:hover{
     display: block;
     float: left;
     margin-left: 80px;
-    width: 313px;
+    width: 250px;
 }
 
 .testimonials ul li:first-child{
