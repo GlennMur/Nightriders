@@ -185,7 +185,7 @@ h5, h6          { font-weight: bolder }
     color: #fff;
 }
 
-.billboard .caption.dark h1{
+.billboard .caption.dark h1, h2{
  
     color: #fff;
   
@@ -349,7 +349,7 @@ header.dark nav ul li a:hover{
 .services2 ul li{
     list-style: none;
     display: block;
-    width: 180px;
+    width: 130px;
     float: left;
     margin-left: 80px;
     text-align: center;
