@@ -140,9 +140,10 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/approach3.jpg') no-repeat;
+    background: url('../img/tree01.jpg') no-repeat;
     
-    background-attachment: scroll;
+    height: 500px;
+     background-attachment: scroll;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -166,11 +167,11 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light{
-    color: #fff;
+    color: #fff;  
 }
 
 .billboard .caption.dark{
-    color: #5d5d5d;
+    color: #5d5d5d;   
 }
 
 .billboard .caption h1{
@@ -184,8 +185,14 @@ h5, h6          { font-weight: bolder }
     color: #fff;
 }
 
-.billboard .caption.dark h1{
-    color: #5d5d5d;
+.billboard .caption.dark h1, h2{
+
+    color: #fff;
+  
+    background:rgba(0,236,12,0.7);
+
+
+/*    color: #5d5d5d;    */
 }
 
 .billboard .caption p{
@@ -198,8 +205,8 @@ h5, h6          { font-weight: bolder }
     color: #fff;
 }
 
-.billboard .caption.dark p{
-    color: #5d5d5d;
+.billboard .caption.dark p{ 
+    color: #5d5d5d;   
 }
 
 .billboard .caption hr{
@@ -216,7 +223,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.dark hr{
-    background: #5d5d5d;
+    background: #5d5d5d; 
 }
 
 .billboardsmall{
@@ -280,17 +287,12 @@ header.light nav ul li a:hover{
 }
 
 header.dark nav ul li a{  
-    color: #5d5d5d;
+    color: #5d5d5d;   
 }
 
 header.dark nav ul li a:hover{
     color: #919191;
 }
-
-
-
-
-
 
 
 /*    Services    */
@@ -321,6 +323,7 @@ header.dark nav ul li a:hover{
 
 .services ul li h2{
     color: #616161;
+    background:rgba(0,0,0,0);
     font-family: "raleway-bold";
     font-size: 18px;
     font-weight: bold;
@@ -339,7 +342,7 @@ header.dark nav ul li a:hover{
 
 /*    Services for current league   */
 .services2 ul{
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .services2 ul li{
@@ -365,6 +368,7 @@ header.dark nav ul li a:hover{
 
 .services2 ul li h2{
     color: #616161;
+    background:rgba(0,0,0,0);
     font-family: "raleway-bold";
     font-size: 18px;
     font-weight: bold;
@@ -428,6 +432,7 @@ header.dark nav ul li a:hover{
 
 .title h2{
     color: #616161;
+    background:rgba(0,0,0,0);
     font-family: "raleway-bold";
     font-size: 30px;
     font-weight: bold;
