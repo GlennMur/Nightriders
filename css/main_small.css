@@ -150,6 +150,16 @@ h5, h6          { font-weight: bolder }
     -o-background-size: 100% 80%;
 }
 
+.billboard.hist{
+    background: url('../img/Historical_header.png') no-repeat;
+    
+    height: 500px;
+     background-attachment: scroll;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
 .billboard .shadow{
     position: absolute;
@@ -174,6 +184,10 @@ h5, h6          { font-weight: bolder }
     color: #5d5d5d;
 }
 
+.billboard .caption.hist{
+    color: #5d5d5d;   
+}
+
 .billboard .caption h1{
     font-family: "raleway-bold";
     font-size: 50px;
@@ -195,6 +209,12 @@ h5, h6          { font-weight: bolder }
 /*    color: #5d5d5d;    */
 }
 
+.billboard .caption.hist h1, h2{
+
+    color: #000;
+  
+   background:rgba(0,49,212,0.0); 
+}
 .billboard .caption p{
     font-family: "raleway-regular";
     font-size: 18px;
@@ -207,6 +227,10 @@ h5, h6          { font-weight: bolder }
 
 .billboard .caption.dark p{
     color: #5d5d5d;
+}
+
+.billboard .caption.hist p{ 
+    color: #5d5d5d;   
 }
 
 .billboard .caption hr{
@@ -224,6 +248,10 @@ h5, h6          { font-weight: bolder }
 
 .billboard .caption.dark hr{
     background: #5d5d5d;
+}
+
+.billboard .caption.hist hr{
+    background: #5d5d5d; 
 }
 
 .billboardsmall{
