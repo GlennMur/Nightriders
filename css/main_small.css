@@ -199,17 +199,19 @@ h5, h6          { font-weight: bolder }
     color: #fff;
 }
 
-.billboard .caption.dark h1, h2{
- 
+.billboard .caption.dark h1{
+
     color: #fff;
   
     background:rgba(0,236,12,0.7);
+}.billboard .caption.dark h2{
 
-
-/*    color: #5d5d5d;    */
+    color: #fff;
+  
+    background:rgba(0,236,12,0.7);
 }
 
-.billboard .caption.hist h1, h2{
+.billboard .caption.hist h1{
 
     color: #000;
   

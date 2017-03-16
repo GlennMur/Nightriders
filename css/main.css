@@ -196,12 +196,17 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 30px;
 }
 
-.billboard .caption.light h1{
+.billboard .caption.light h1, h2{
     color: #fff;
 }
 
 
-.billboard .caption.dark h1, h2{
+.billboard .caption.dark h1{
+
+    color: #fff;
+  
+    background:rgba(0,236,12,0.7);
+}.billboard .caption.dark h2{
 
     color: #fff;
   
@@ -214,7 +219,6 @@ h5, h6          { font-weight: bolder }
   
    background:rgba(0,49,212,0.0); 
 }
-
 .billboard .caption p{
     font-family: "raleway-regular";
     font-size: 18px;
