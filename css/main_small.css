@@ -497,7 +497,7 @@ header.dark nav ul li a:hover{
 
 /*    testimonials    */
 .testimonials{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .testimonials ul{
@@ -584,7 +584,7 @@ header.dark nav ul li a:hover{
 
 /*    blog posts    */
 .blog_posts{
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 100px 0;
     background: #fafafa;
 }
@@ -596,7 +596,7 @@ header.dark nav ul li a:hover{
 
 .blog_posts ul li{
     display: block;
-    width: 230px;
+    width: 350px;
     margin-left: 60px;
     float: left;
 }
@@ -611,7 +611,7 @@ header.dark nav ul li a:hover{
     left: 30px;
     width: 40px;
     padding: 10px 0;
-    background: rgba(62, 62, 62, .7);
+    background: rgba(62, 62, 156, .7);
     text-align: center;
 }
 
@@ -635,7 +635,7 @@ header.dark nav ul li a:hover{
 
 .blog_posts ul li .media{
     width: 230px;
-    height: 230px;
+    height: 70px;
     position: relative;
 }
 
@@ -645,7 +645,7 @@ header.dark nav ul li a:hover{
     font-size: 16px;
     font-weight: normal;
     line-height: 26px;
-    margin: 20px 0 0 0;
+    margin: 3px 0 0 0;
 }
 
 
