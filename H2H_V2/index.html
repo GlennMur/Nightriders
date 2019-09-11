@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
 	<title>NightRiders H2H</title>
 	<meta charset="UTF-8">
@@ -23,16 +21,8 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
-    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/IncludeHTML.js"></script>
  
-    <script> 
-    $(function(){
-      $("#includedContent").load("HTML_body.html"); 
-      $("#includedContent1").load("../pages/notice_board1.html"); 
-    });
-    </script> 
-
 </head>
 <body>
 	
@@ -41,27 +31,13 @@
 			<div class="wrap-table100">
 
 				<div class="table100 ver2 m-b-110">
-					<table data-vertable="ver2">
-						<thead>
-							<tr class="row100 head">
-								<th class="column100 column1" data-column="column1"></th>
-								<th class="column100 column2" data-column="column2">Sunday</th>
-								<th class="column100 column3" data-column="column3">Monday</th>
-								<th class="column100 column4" data-column="column4">Tuesday</th>
-								<th class="column100 column5" data-column="column5">Wednesday</th>
-								<th class="column100 column6" data-column="column6">Thursday</th>
-								<th class="column100 column7" data-column="column7">Friday</th>
-								<th class="column100 column8" data-column="column8">Saturday</th>
-							</tr>
-						</thead>
 
-<!-- 		       			<div id="includedContent1"></div> -->
-
-<div w3-include-html="HTML_body.html"></div> 
-<script>
-includeHTML();
-</script>
-					</table>
+							<div H2H_include-html="HTML_head.html"></div> 
+<!-- 							<div H2H_include-html="HTML_body.html"></div> 
+							<div H2H_include-html="HTML_footer.html"></div>  -->
+							<script>
+								includeHTML();
+							</script>
 				</div>
 
 			</div>
@@ -70,6 +46,7 @@ includeHTML();
 
 
 	
+    <script type="text/javascript" src="js/jquery.js"></script>
 
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
