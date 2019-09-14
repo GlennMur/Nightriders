@@ -7,6 +7,8 @@ function includeHTML() {
     elmnt = z[i];
     /*search for elements with a certain atrribute:*/
     file = elmnt.getAttribute("H2H_include-html");
+            console.log('file: ' + file)  
+
     if (file) {
       /* Make an HTTP request using the attribute value as the file name: */
       xhttp = new XMLHttpRequest();

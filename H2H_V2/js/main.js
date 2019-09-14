@@ -1,3 +1,18 @@
+$(document).ready(function () {
+ 
+
+var options = '';
+
+for (var i = 0; i < 5; i++)
+{ 
+  options += '<option value="' + i + '">' + i + '</option>';
+}
+options += '<option value="H2H_include-html=1V4_Team.html">"HTML_head.html"</option>'
+    console.log('Options: ' + options)  
+
+$('#TeamList').append(options);
+
+});
 
 (function ($) {
 	"use strict";
