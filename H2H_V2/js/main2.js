@@ -22,7 +22,7 @@ function DisplayHTML(){
 	var selVersusNo = selNo2.options[selNo2.selectedIndex].value;
 
     // Original string 
-    var str = 'H2H_Files/'; 
+    var str = 'H2H_files/'; 
   
     // Joining the strings together 
     var value = str.concat(selTeamNo,'V',selVersusNo,'_Team.html');
