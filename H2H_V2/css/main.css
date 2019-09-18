@@ -188,6 +188,22 @@ th, td {
 
 /*==================================================================
 [ Ver2 ]*/
+
+  /* Hide table if on a phone (portrait) */
+  
+@media 
+only screen and (max-width: 360px),
+{
+.table100.ver2 td th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+
+}
+
+
 .table100.ver2 td {
   font-family: Montserrat-Regular;
   font-size: 12px;
@@ -226,6 +242,8 @@ th, td {
 
 /*==================================================================
 [ Ver2 ]*/
+
+
 .table100.ver2 tbody tr:nth-child(even) {
   background-color: #eaf8e6;
 }
@@ -308,6 +326,41 @@ th, td {
 
 /*==================================================================
 [ Ver4 ]*/
+
+/*@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+}*/
+
+/* for phones only */
+
+@media 
+only screen and (max-device-width: 360px),
+{
+.table100.ver4 table {
+  width: 360px;
+  background-color: #ffffcc;
+}
+.table100.ver4 td {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #808080;
+  line-height: 1.4;
+}
+
+.table100.ver4 th {
+  font-family: Montserrat-Medium;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  background-color: #f9061b;
+}
+
+
+}
 
 .table100.ver4 table {
   width: 70%;
