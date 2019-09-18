@@ -192,9 +192,14 @@ th, td {
   /* Hide table if on a phone (portrait) */
   
 @media 
-only screen and (max-width: 360px),
+only screen and (max-width: 480px),
 {
-.table100.ver2 td th {
+.table100.ver2 thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+.table100.ver2 tbody tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
@@ -203,6 +208,7 @@ only screen and (max-width: 360px),
 
 }
 
+@media (min-width: 481px) {
 
 .table100.ver2 td {
   font-family: Montserrat-Regular;
@@ -283,6 +289,7 @@ only screen and (max-width: 360px),
   background-color: #57b846;
   color: #fff;
 }
+}
 
 /*==================================================================
 [ Ver3 ]*/
@@ -336,12 +343,13 @@ only screen and (max-width: 760px),
 /* for phones only */
 
 @media 
-only screen and (max-device-width: 360px),
+only screen and (max-width: 480px),
 {
 .table100.ver4 table {
   width: 360px;
   background-color: #ffffcc;
 }
+
 .table100.ver4 td {
   font-family: Montserrat-Regular;
   font-size: 18px;
@@ -359,8 +367,9 @@ only screen and (max-device-width: 360px),
   background-color: #f9061b;
 }
 
-
 }
+
+@media (min-width: 481px) {
 
 .table100.ver4 table {
   width: 70%;
@@ -399,7 +408,7 @@ only screen and (max-device-width: 360px),
   background-color: #ffebed;
   color: #fa4251;
 }
-
+}
 /*==================================================================
 [ Ver5 ]*/
 .table100.ver5 tbody tr:nth-child(even) {
