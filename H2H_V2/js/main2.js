@@ -13,7 +13,14 @@
 // $('#TeamList').append(options);
 
 // });
-
+function UrlExists(url)
+{
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    // return http.status!=404;
+    return http.status;
+}
 
 function DisplayHTML(){
 	var selNo1 = document.getElementById("Team");
@@ -26,10 +33,14 @@ function DisplayHTML(){
   
     // Joining the strings together 
     var value = str.concat(selTeamNo,'V',selVersusNo,'_Team.html');
-
+    if (UrlExists(value) != 404)
+    {
      console.log('Value: ' + value)  
-   window.location = value;
-	
+	 window.location = value;
+   }
+   else
+   	{	 window.location = '404Page.html'; }
+ 	
 	// document.getElementById("result").innerHTML = result;
 }
 
