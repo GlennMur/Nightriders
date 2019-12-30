@@ -33,6 +33,31 @@ function DisplayHTML(){
   
     // Joining the strings together 
     var value = str.concat(selTeamNo,'V',selVersusNo,'_Team.html');
+
+    if (UrlExists(value) != 404)
+    {
+     console.log('Value: ' + value)  
+	 window.location = value;
+   }
+   else
+   	{	 window.location = '404Page.html'; }
+ 	
+	// document.getElementById("result").innerHTML = result;
+}
+
+function DisplayHTML_Bowler(){
+	var selNo1 = document.getElementById("Bowler");
+	var selBowlerNo = selNo1.options[selNo1.selectedIndex].value;
+	var selNo2 = document.getElementById("Versus_Bowler");
+	var selVersusNo = selNo2.options[selNo2.selectedIndex].value;
+
+    // Original string 
+    var str = 'H2H_files/'; 
+  
+    // Joining the strings together 
+    var value = str.concat(selBowlerNo,'V',selVersusNo,'_Bowler.html');
+           console.log('file: ' + value)  
+
     if (UrlExists(value) != 404)
     {
      console.log('Value: ' + value)  
