@@ -347,7 +347,8 @@ only screen and (max-width: 480px),
 {
 .table100.ver4 table {
   width: 280px;
-  background-color: #ffffcc;
+ /* background-color: #ffffcc;    yellow */
+  background-color: #d2f2f1;     /* light green for rows */
 }
 
 .table100.ver4 td {
@@ -364,7 +365,8 @@ only screen and (max-width: 480px),
   line-height: 1.4;
   text-transform: uppercase;
 
-  background-color: #f9061b;
+ background-color: #2b7a78;      
+ /* background-color: #f9061b;         red*/
 }
 
 }
@@ -373,7 +375,8 @@ only screen and (max-width: 480px),
 
 .table100.ver4 table {
   width: 70%;
-  background-color: #ffffcc;
+ /* background-color: #ffffcc;*/
+  background-color: #d2f2f1;     /* light green for rows */
 }
 .table100.ver4 td {
   font-family: Montserrat-Regular;
@@ -389,7 +392,8 @@ only screen and (max-width: 480px),
   line-height: 1.4;
   text-transform: uppercase;
 
-  background-color: #f9061b;
+  background-color: #2b7a78;      /* darker green for head */
+ /* background-color: #f9061b;         red*/
 }
 
 .table100.ver4 .row100:hover td {
