@@ -302,11 +302,11 @@ h1, h2, h3, h4, h5,
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 100%;
-  padding: 10px 30px !important;
+  padding: 1px 30px !important;
   border-radius: 4px; }
-  @media (max-width: 767.98px) {
+/*  @media (max-width: 767.98px) {
     .site-navbar {
-      top: 0; } }
+      top: 0; } }*/
   .site-navbar .site-logo {
     position: relative;
     left: 0;
