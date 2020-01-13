@@ -138,6 +138,13 @@ th, td {
   width: 265px;
   padding-left: 42px;
 }*/
+.column105 th, td {
+  
+  width: 150px;
+ 
+ 
+  padding-left: 5px;
+}
 
 .row100.head th {
   padding-top: 5px;
@@ -328,7 +335,7 @@ only screen and (max-width: 480px),
 
 .table100.ver3 .row100 td:hover {
   background-color: #e03e9c;
-  color: #fff;
+  color: #000000;
 }
 
 /*==================================================================
